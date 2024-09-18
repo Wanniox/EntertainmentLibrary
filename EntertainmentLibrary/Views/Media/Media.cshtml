@@ -1,0 +1,12 @@
+﻿@{
+	ViewData["Title"] = "Placeholder";
+}
+<h1>Placeholder</h1>
+
+<p>@ViewData["ID"]</p>
+<ul>
+	@for (int i = 0; i<(int)ViewData["ID"]!;i++)
+	{
+		<li>@ViewData["ID"]</li>
+	}
+</ul>
